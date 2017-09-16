@@ -1,0 +1,4 @@
+1) We have to add a button to select the address from the list.
+2) They think that layout is pretty much same as old one.
+3) Work on interactive fields.
+4) 

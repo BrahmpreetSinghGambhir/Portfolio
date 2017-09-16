@@ -1,0 +1,13 @@
+1) Sharepoint upgrat from 2007 to 2013
+2) Redesign website (SC connenct)
+3) Information about company, Interaction with other staff, discussion boards, document libraries.
+4) Application links : Room booking, Ecards, Temperature declaration system, SC wiki.
+5) Breadcrumbs, Sitemap and tagcloud
+6) 3.45 The intent is to review the current website and propose new web-site designs and information navigation.
+7) Features that enhance the use of the website could be proposed by Supplier
+
+8) 3.46 To conduct website consultancy (including usability study of existing SC Connect and common application, FileShare Portals) and deliver an Information Architecture for the revamp System in no more than 2 calendar months.
+
+9)  To conduct design consultation sessions with Customs users to conceptual and design the new System.
+
+10) To provide at least three (3) design mock-ups. The Government reserves the right not to accept any design proposal which is deemed to be inefficient, unintuitive, impractical or inappropriate. It is an iterative process till the design proposal is accepted.
