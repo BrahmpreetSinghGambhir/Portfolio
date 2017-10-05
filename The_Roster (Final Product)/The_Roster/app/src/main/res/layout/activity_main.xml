@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.brahmpreetsingh.the_roster.MainActivity"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/xLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The Brahm's Roster"
+        android:textAlignment="center"
+        android:paddingTop="50px"
+        android:textSize="80px"
+        android:fontFamily="cursive"/>
+
+    <EditText
+        android:id="@+id/xEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="100px"
+        android:focusedByDefault="true"
+        android:hint="Enter girlfriend's name..."
+        android:ems="10"
+        android:inputType="textPersonName"
+        />
+
+    <CheckBox
+        android:id="@+id/xCheckBox"
+        android:layout_width="208dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220px"
+        android:layout_marginTop="30px"
+        android:layout_weight="0.00"
+        android:text="I think we're going steady"
+        android:textAlignment="center" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50px"
+            android:textSize="45px"
+            android:layout_marginLeft="30px"
+            android:text="Her Eye's color?"
+            />
+        <Spinner
+            android:id="@+id/xSpinner"
+            android:layout_width="243dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50px"
+            android:layout_marginLeft="40px"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Her Birthday ?"
+            android:layout_marginTop="50px"
+            android:textSize="45px"
+            android:layout_marginLeft="30px"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50px"
+            android:layout_marginLeft="40px"
+            android:layout_marginRight="40px"
+            android:onClick="doSomething"
+            android:id="@+id/xBirthdayButton"
+            android:text="Click me to Enter her birthday !"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="40px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Her Shirt size ?"
+            android:textSize="45px"
+            android:layout_marginLeft="30px"
+            android:layout_margin="15px"/>
+
+        <RadioGroup
+            android:layout_margin="5px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/x_rg1">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/x_XS"
+                android:checked="true"
+                android:text="XS"
+                android:layout_marginRight="3px"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="3px"
+                android:id="@+id/x_S"
+                android:text="S"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="3px"
+                android:id="@+id/x_M"
+                android:text="M"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/x_L"
+                android:text="L"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/x_XL"
+
+                android:text="XL"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/x_XXL"
+                android:text="XXL"/>
+        </RadioGroup>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Her Pant size ?"
+            android:textSize="45px"
+            android:layout_marginLeft="30px"
+            android:layout_margin="15px"/>
+        <SeekBar
+            android:layout_width="600px"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25px"
+            android:id="@+id/xSeekBar1"
+            android:max="16"
+            android:min="0"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="45px"
+            android:layout_marginLeft="30px"
+            android:layout_margin="15px"
+            android:id="@+id/xTextViewSeek1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Her Shirt size ?"
+            android:textSize="45px"
+            android:layout_marginLeft="30px"
+            android:layout_margin="15px"/>
+        <SeekBar
+            android:layout_width="600px"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25px"
+            android:id="@+id/xSeekBar2"
+            android:max="12"
+            android:min="0"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="45px"
+            android:layout_marginLeft="30px"
+            android:layout_margin="15px"
+            android:id="@+id/xTextViewSeek2"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Her Shoe size ?"
+            android:textSize="45px"
+            android:layout_marginLeft="30px"
+            android:layout_margin="15px"/>
+        <SeekBar
+            android:layout_width="600px"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25px"
+            android:id="@+id/xSeekBar3"
+            android:min="4"
+            android:max="12"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4"
+            android:textSize="45px"
+            android:layout_marginLeft="30px"
+            android:layout_margin="15px"
+            android:id="@+id/xTextViewSeek3"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/xButtonSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="saveMethod"
+        android:text="Save" />
+
+    <Button
+        android:id="@+id/xButtonShow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show"
+        android:onClick="showMethod"/>
+
+
+</LinearLayout>

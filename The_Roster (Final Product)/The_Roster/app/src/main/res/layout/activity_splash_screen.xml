@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="com.example.brahmpreetsingh.the_roster.SplashScreen">
+
+
+    <TextView
+        android:id="@+id/xTextViewSplash1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.03"
+        android:fontFamily="cursive"
+        android:text="The Roster"
+        android:textAlignment="center"
+        android:textSize="60dp"
+        android:layout_marginTop="250px"
+        />
+
+    <ImageView
+        android:id="@+id/xImageViewSplash2"
+        android:layout_width="252dp"
+        android:layout_height="355dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="-150px"
+        android:src="@mipmap/fox2" />
+
+    <TextView
+        android:id="@+id/xTextViewSplash2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.52"
+        android:text="Manage your Girlfriends."
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="20dp"
+        android:layout_marginTop="-80px"
+        android:textAlignment="center"
+        />
+
+
+</LinearLayout>

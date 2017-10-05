@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">The_Roster</string>
+    <string-array name="EyeColor">
+        <item>Blue</item>
+        <item>Green</item>
+        <item>Black</item>
+        <item>Red (She sucks ur blood)</item>
+        <item>Brown</item>
+    </string-array>
+</resources>
