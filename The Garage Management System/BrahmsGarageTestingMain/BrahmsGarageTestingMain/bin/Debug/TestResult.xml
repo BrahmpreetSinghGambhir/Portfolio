@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Users\Brahmpreet singh\Desktop\BrahmsGarageTestingMain\BrahmsGarageTestingMain\bin\Debug\BrahmsGarageTestingMain.dll" total="9" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2018-01-03" time="22:22:57">
+  <environment nunit-version="2.6.4.14350" clr-version="2.0.50727.8825" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="C:\Program Files (x86)\NUnit 2.6.4\bin" machine-name="LAPTOP-LV96S41C" user="Brahmpreet singh" user-domain="LAPTOP-LV96S41C" />
+  <culture-info current-culture="en-CA" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="C:\Users\Brahmpreet singh\Desktop\BrahmsGarageTestingMain\BrahmsGarageTestingMain\bin\Debug\BrahmsGarageTestingMain.dll" executed="True" result="Success" success="True" time="24.675" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="BrahmsGarageTestingMain" executed="True" result="Success" success="True" time="24.660" asserts="0">
+        <results>
+          <test-suite type="TestFixture" name="NUnitTests" executed="True" result="Success" success="True" time="24.644" asserts="0">
+            <results>
+              <test-case name="BrahmsGarageTestingMain.NUnitTests.AddDieselCarType" executed="True" result="Success" success="True" time="5.494" asserts="1" />
+              <test-case name="BrahmsGarageTestingMain.NUnitTests.AddElectricCarType" executed="True" result="Success" success="True" time="0.867" asserts="1" />
+              <test-case name="BrahmsGarageTestingMain.NUnitTests.AddHybridCarType" executed="True" result="Success" success="True" time="0.675" asserts="1" />
+              <test-case name="BrahmsGarageTestingMain.NUnitTests.AddPetrolCarType" executed="True" result="Success" success="True" time="0.680" asserts="1" />
+              <test-case name="BrahmsGarageTestingMain.NUnitTests.InsertDieselCar" executed="True" result="Success" success="True" time="3.508" asserts="13" />
+              <test-case name="BrahmsGarageTestingMain.NUnitTests.InsertElectricCar" executed="True" result="Success" success="True" time="2.203" asserts="13" />
+              <test-case name="BrahmsGarageTestingMain.NUnitTests.InsertHybridCar" executed="True" result="Success" success="True" time="2.204" asserts="13" />
+              <test-case name="BrahmsGarageTestingMain.NUnitTests.InsertPetrolCar" executed="True" result="Success" success="True" time="2.128" asserts="13" />
+              <test-case name="BrahmsGarageTestingMain.NUnitTests.reset" executed="True" result="Success" success="True" time="0.132" asserts="0" />
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
